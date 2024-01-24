@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "repo2srv": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\work\\repo2srv\\repo2srv\\AppSettings.json"
+    }
+  }
+}
