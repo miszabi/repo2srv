@@ -6,6 +6,8 @@ namespace repo2srv
         public IEnumerable<AppSetting> Apps { get; set; }
     }
 
+
+
     public class Action
     {
         public List<string> RemoveFiles { get; set; }        
