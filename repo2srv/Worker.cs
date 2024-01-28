@@ -2,11 +2,11 @@
 
 namespace repo2srv
 {
-    internal class Handler
+    internal class Worker
     {
         IEnumerable<AppSetting> settings = null;
         
-        public Handler(IEnumerable<AppSetting> settings)
+        public Worker(IEnumerable<AppSetting> settings)
         {
             this.settings = settings;
         }

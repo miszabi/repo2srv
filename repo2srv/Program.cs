@@ -9,7 +9,7 @@ var content = File.ReadAllText(args[0]);
 
 var settings = JsonSerializer.Deserialize<Root>(content, new JsonSerializerOptions { PropertyNameCaseInsensitive = true});
 
-var h = new repo2srv.Handler(settings.Apps);
+var h = new repo2srv.Worker(settings.Apps);
 Console.WriteLine("Preparing");
 h.Prepare();
 Console.WriteLine("Prepared");
